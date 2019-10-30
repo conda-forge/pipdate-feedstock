@@ -1,5 +1,5 @@
 {% set name = "pipdate" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a27f64d13269adfd8594582f5a62c9f2151b426e701afdfc3b4f4019527b4121
+  sha256: 26bd12075e63ef7f8094da36c27bf5539d298f4ef2af6acba20e98b502439d6d
 
 build:
   noarch: python
