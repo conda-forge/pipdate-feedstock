@@ -31,7 +31,7 @@ about:
   home: https://github.com/nschloe/pipdate
   license: MIT
   license_family: MIT
-  license: LICENSE
+  license_file: LICENSE
   summary: 'pipdate is a collection of small pip update helpers'
 
 extra:
