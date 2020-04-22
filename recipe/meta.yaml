@@ -1,5 +1,5 @@
 {% set name = "pipdate" %}
-{% set version = "0.3.5" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 240c0f270ddb7470ad7b8c8fba4106e3dbd8817a370624fd8c32cf19155c9547
+  sha256: e368360af06a8eef50359836236899f325c9af70b15c416f705938aeb2d5e76d
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'pipdate is a collection of small pip update helpers'
+  summary: pipdate is a collection of small pip update helpers
 
 extra:
   recipe-maintainers:
