@@ -3,7 +3,7 @@ About pipdate
 
 Home: https://github.com/nschloe/pipdate
 
-Package license: LICENSE
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
