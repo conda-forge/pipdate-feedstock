@@ -16,12 +16,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3
     - pip
   run:
-    - python
+    - python >=3
     - appdirs
     - requests
+    - importlib_metadata
 
 test:
   imports:
