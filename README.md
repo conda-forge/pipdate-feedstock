@@ -5,7 +5,7 @@ Home: https://github.com/nschloe/pipdate
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: pipdate is a collection of small pip update helpers
 
