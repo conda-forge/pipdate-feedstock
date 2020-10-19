@@ -5,11 +5,9 @@ Home: https://github.com/nschloe/pipdate
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pipdate-feedstock/blob/master/LICENSE.txt)
 
 Summary: pipdate is a collection of small pip update helpers
-
-
 
 Current build status
 ====================
