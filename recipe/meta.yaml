@@ -23,6 +23,7 @@ requirements:
     - appdirs
     - requests
     - importlib_metadata
+    - rich
     - setuptools
 
 test:
