@@ -25,6 +25,7 @@ requirements:
     - importlib_metadata
     - rich
     - setuptools
+    - packaging
 
 test:
   imports:
